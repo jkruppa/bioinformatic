@@ -1,0 +1,27 @@
+# Willkommen {.unnumbered}
+
+> *"Mir wird applaudiert, weil mich jeder versteht, und Ihnen, weil Sie niemand versteht." --- Charlie Chaplin zu Albert Einstein*
+
+Auf den folgenden Seiten wirst du nochmal die Grundlagen der Mathematik in der Statistik lernen. Wir lagern hier die Inhalte die sehr mathematisch sind von den angewandten, statistischen Themen aus. Das heißt, du findest hier sehr viel Mathematik und auch Rechenbeispiele. Es wird aber R Code geben - siehe den R Code als den Taschenrechnercode. Das hat den einfachen Grund, das wir eben dann doch mal die Grundlagen in der Mathematik wiederholen müssen. Es kann aber auch sein, dass du gar nicht so viel Mathematik später brauchst - oder wiederkommst, weil du nochmal nachschauen willst, wie du eine Teilstückfläche berechnest. Wir auch immer, hier findest du die Mathematikteile aus meinenen Vorlesungen.
+
+## Kontakt {#sec-contact-mail}
+
+Noch Fragen? Wie erreichst du mich? Am einfachsten über die gute, alte E-Mail. Bitte beachte, dass gerade kurz vor den Prüfungen ich mehr E-Mails kriege. Leider kann es dann einen Tick dauern.
+
+Einfach an [j.kruppa\@hs-osnabrueck.de](mailto:j.kruppa@hs-osnabrueck.de){.email} schreiben. Du findest hier auch eine kurze Formulierungshilfe.
+
+Bitte gib immer in deiner E-Mail dein Modul - was du belegst - mit an. Pro Semester unterrichte ich immer *drei* sehr ähnlich klingende Module. Daher schau nochmal [hier in der Liste](#sec-vorlesungen-hs), wenn du unsicher bist.
+
+::: callout-tip
+## E-Mailvorlage mit beispielhafter Anrede
+
+Hallo Herr Kruppa,
+
+... ich belege gerade Ihr Modul `Modulname` und hätte eine Bitte/Frage/Anregung...
+
+... ich benötige Hilfe bei der Planung/Auswertung meiner Bachelorarbeit...
+
+Mit freundlichen Grüßen
+
+M. Muster
+:::

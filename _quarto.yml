@@ -1,0 +1,51 @@
+project:
+  type: book
+  output-dir: docs
+
+crossref:
+  fig-prefix: Abbildung
+  tbl-prefix: Tabelle
+  fig-title: Abbildung    
+  tbl-title: Tabelle 
+  title-delim: —     # (default is ":")
+
+book:
+  title: "Skript Bioinformatik"
+  subtitle: "Der zu kurze Leitfaden"
+  author: "Prof. Dr. Jochen Kruppa"
+  date: "19. August 2023"
+  cover-image: cover.png
+  chapters:
+    - index.qmd
+    - literature.qmd
+    - preface.qmd
+#    - part: geometry-preface.qmd
+#      chapters:
+#      - geometry-unit.qmd
+#      - geometry-area.qmd
+#      - geometry-volume.qmd
+#    - part: vector-preface.qmd
+#      chapters: 
+#      - vector-basic.qmd
+#      - matrix-basic.qmd
+#    - part: functions-preface.qmd
+#      chapters: 
+#      - functions-basic.qmd
+#      - functions-extrem-stamm.qmd
+#    - part: probability-preface.qmd
+#      chapters:
+#      - probability-basic.qmd
+#      - probability-distribution.qmd
+
+bibliography: references.bib
+lang: de 
+
+format:
+  html:
+    theme: cosmo
+    mermaid:
+      theme: default
+#  pdf:
+#    documentclass: scrreprt
+
+

@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Skript Bioinformatik",
+    "section": "",
+    "text": "Willkommen\nAuf den folgenden Seiten wirst du nochmal die Grundlagen der Mathematik in der Statistik lernen. Wir lagern hier die Inhalte die sehr mathematisch sind von den angewandten, statistischen Themen aus. Das heißt, du findest hier sehr viel Mathematik und auch Rechenbeispiele. Es wird aber R Code geben - siehe den R Code als den Taschenrechnercode. Das hat den einfachen Grund, das wir eben dann doch mal die Grundlagen in der Mathematik wiederholen müssen. Es kann aber auch sein, dass du gar nicht so viel Mathematik später brauchst - oder wiederkommst, weil du nochmal nachschauen willst, wie du eine Teilstückfläche berechnest. Wir auch immer, hier findest du die Mathematikteile aus meinenen Vorlesungen."
+  },
+  {
+    "objectID": "index.html#sec-contact-mail",
+    "href": "index.html#sec-contact-mail",
+    "title": "Skript Bioinformatik",
+    "section": "Kontakt",
+    "text": "Kontakt\nNoch Fragen? Wie erreichst du mich? Am einfachsten über die gute, alte E-Mail. Bitte beachte, dass gerade kurz vor den Prüfungen ich mehr E-Mails kriege. Leider kann es dann einen Tick dauern.\nEinfach an j.kruppa@hs-osnabrueck.de schreiben. Du findest hier auch eine kurze Formulierungshilfe.\nBitte gib immer in deiner E-Mail dein Modul - was du belegst - mit an. Pro Semester unterrichte ich immer drei sehr ähnlich klingende Module. Daher schau nochmal hier in der Liste, wenn du unsicher bist.\n\n\n\n\n\n\nE-Mailvorlage mit beispielhafter Anrede\n\n\n\nHallo Herr Kruppa,\n… ich belege gerade Ihr Modul Modulname und hätte eine Bitte/Frage/Anregung…\n… ich benötige Hilfe bei der Planung/Auswertung meiner Bachelorarbeit…\nMit freundlichen Grüßen\nM. Muster"
+  },
+  {
+    "objectID": "literature.html#parametrische-statistik",
+    "href": "literature.html#parametrische-statistik",
+    "title": "1  Literatur",
+    "section": "1.1 Parametrische Statistik",
+    "text": "1.1 Parametrische Statistik\n\n\n\n\n\nDormann (2013) liefert ein tolles deutsches Buch für die Vertiefung in die Statistik. Wir nutzen das Buch hier um uns nochmal auf die Verteilungen von der mathematischen Seite anzunähern. Wir wollen die Begriffe wie Dichte, Parameter und Schätzer für Verteilungen nochmal genauer anschauen. Das Buch ist an der Hochschule Osnabrück kostenlos über den Link zu erhalten."
+  },
+  {
+    "objectID": "literature.html#odds-ends",
+    "href": "literature.html#odds-ends",
+    "title": "1  Literatur",
+    "section": "1.2 Odds & Ends",
+    "text": "1.2 Odds & Ends\n\n\n\n\n\nAm Ende dann noch eine Mathebuch von Weisberg zu finden unter https://jonathanweisberg.org/vip/. Eigentlich eher ein Buch über Wahrscheinlichkeiten und wenn ein Buch am Ende stehen muss, dann ist es dieses Buch. Ich finde es sehr spannend zu lesen. Wir nutzen Teile aus dem Buch für die bedingten Wahrscheinlichkeiten."
+  },
+  {
+    "objectID": "literature.html#referenzen",
+    "href": "literature.html#referenzen",
+    "title": "1  Literatur",
+    "section": "Referenzen",
+    "text": "Referenzen\n\n\n\n\nDormann, Carsten F. 2013. Parametrische Statistik. Springer."
+  },
+  {
+    "objectID": "preface.html#lernziel-1-geometrische-berechnungen-für-die-versuchsplanung-durchführen",
+    "href": "preface.html#lernziel-1-geometrische-berechnungen-für-die-versuchsplanung-durchführen",
+    "title": "2  Einführung",
+    "section": "2.1 Lernziel 1: Geometrische Berechnungen für die Versuchsplanung durchführen",
+    "text": "2.1 Lernziel 1: Geometrische Berechnungen für die Versuchsplanung durchführen\nWir wollen nochmal lernen, wie wir Berechnungen für Flächen durchführen. Wir brauchen das Wissen um später ausrechnen zu können wie viel Platz wir für einen Versuch brauchen. Dafür wiederholen wir nochmal die gängigsten Formen und Flächen. Ebenso berechnen wir die Volumen von den gänigsten Körpern. Das Wissen brauchen wir um Abschätzen zu können wie viel Torf wir für unsere Töpfe ansetzen müssen oder wie viel Futter wir für unser Tierexperiment einkaufen müssen."
+  },
+  {
+    "objectID": "preface.html#lernziel-2-grundlagen-von-wahrscheinlichkeiten-verstehen",
+    "href": "preface.html#lernziel-2-grundlagen-von-wahrscheinlichkeiten-verstehen",
+    "title": "2  Einführung",
+    "section": "2.2 Lernziel 2: Grundlagen von Wahrscheinlichkeiten verstehen",
+    "text": "2.2 Lernziel 2: Grundlagen von Wahrscheinlichkeiten verstehen\nWir wollen lerne, wie sich Wahrscheinlichkeiten zusammensetzen. Also was ist eigentlich eine Wahrscheinlichkeit, wo kommt die Wahrscheinlichkeit her und wie rechnen wir mit Wahrscheinlichkeiten. Darüber hinaus lernen wir auch die bedingte Wahrscheinlichkeit kennen, die wir später in der Statistik nochmal brauchen. Vieles wirst du wiedererkennen. Wir wollen es hier nochmal wiederholen und festigen."
+  },
+  {
+    "objectID": "preface.html#lernziel-3-wahrscheinlichkeitsverteilungen-verstehen",
+    "href": "preface.html#lernziel-3-wahrscheinlichkeitsverteilungen-verstehen",
+    "title": "2  Einführung",
+    "section": "2.3 Lernziel 3: Wahrscheinlichkeitsverteilungen verstehen",
+    "text": "2.3 Lernziel 3: Wahrscheinlichkeitsverteilungen verstehen\nNeben den einfachen Wahrscheinlichkeiten von einem Ereignis, können wir uns auch kompliziertere Wahrscheinlichkeiten vorstellen. Wir schauen uns nicht nur ein Ereignis an, sondern eben eine ganze Reihe von möglichen Ausgängen eines Zufallsprozesses. Daher werden wir hier nochmal die gänigsten Verteilungen wiederholen und uns anschauen, was eigentlich eine Dichtefunktion ist."
+  },
+  {
+    "objectID": "preface.html#lernziel4-matrixrechnungen-durchführen-können",
+    "href": "preface.html#lernziel4-matrixrechnungen-durchführen-können",
+    "title": "2  Einführung",
+    "section": "2.4 Lernziel4: Matrixrechnungen durchführen können",
+    "text": "2.4 Lernziel4: Matrixrechnungen durchführen können\nAm Ende wollen wir uns nochmal die Berechnung der Vektor- und Matrixrechnungen anschauen. Wir brauchen die Grundidee der Vektor- und Matrixrechnung in der Statistik um dort mit Vektoren und dann auch Datensätzen rechnen zu können. Wir halten hier aber alles sehr einfach und konzentrieren uns auf das Wichtigste."
+  }
+]
