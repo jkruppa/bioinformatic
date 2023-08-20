@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Skript Bioinformatik",
     "section": "",
-    "text": "Willkommen\nAuf den folgenden Seiten wirst du nochmal die Grundlagen der Mathematik in der Statistik lernen. Wir lagern hier die Inhalte die sehr mathematisch sind von den angewandten, statistischen Themen aus. Das heißt, du findest hier sehr viel Mathematik und auch Rechenbeispiele. Es wird aber R Code geben - siehe den R Code als den Taschenrechnercode. Das hat den einfachen Grund, das wir eben dann doch mal die Grundlagen in der Mathematik wiederholen müssen. Es kann aber auch sein, dass du gar nicht so viel Mathematik später brauchst - oder wiederkommst, weil du nochmal nachschauen willst, wie du eine Teilstückfläche berechnest. Wir auch immer, hier findest du die Mathematikteile aus meinenen Vorlesungen."
+    "text": "Willkommen\nAuf den Text"
   },
   {
     "objectID": "index.html#sec-contact-mail",
@@ -61,5 +61,12 @@
     "title": "2  Einführung",
     "section": "2.4 Lernziel4: Matrixrechnungen durchführen können",
     "text": "2.4 Lernziel4: Matrixrechnungen durchführen können\nAm Ende wollen wir uns nochmal die Berechnung der Vektor- und Matrixrechnungen anschauen. Wir brauchen die Grundidee der Vektor- und Matrixrechnung in der Statistik um dort mit Vektoren und dann auch Datensätzen rechnen zu können. Wir halten hier aber alles sehr einfach und konzentrieren uns auf das Wichtigste."
+  },
+  {
+    "objectID": "preface.html",
+    "href": "preface.html",
+    "title": "2  Einführung",
+    "section": "",
+    "text": "Version vom August 20, 2023 um 09:04:21\n\n\n\n\n\n\nGrundlagen der klassischen, mendelschen Vererbung beinhaltend das Hardy-Weinberg-Gleichgewicht\nGrundlagen der Quantitativen Genetik mit Kopplungskarten und Linkage disequilibrium\nGenetische Distanz und polygenetische Bäume zur Darstellung evolutionärer Beziehungen\nMarkergestützte Selektion und indirekte Selektion\nStatistische Herausforderungen von hochdimensionalen Daten\nData Preprocessing und Qualitätskontrolle auf der Ebene der Marker und Individuen\nGängige Assoziationstests unter anderem Chi-Quadrat-Test und logistische Regression\nAuswertung von Genomeweite Assoziationsstudien, Microarraydaten, High throughput genotyping, Next generation sequencing, Whole genome sequencing und RNA-seq an Fallbeispielen\nVisualisierungen der Ergebnisse durch Manhattanplot, Vucanoplot und Regional Association Plot und weiteren.\nGrundlagen Multiomics und Pathway Analysen sowie deren Datenbanken\nGrundlegende Methoden zum Sequenzaligment\nAnwendung der Algorithmen an ausgewählten Fallbeispielen in R/Bioconductor"
   }
 ]
