@@ -61,7 +61,7 @@ lang: de
 
 format:
   html:
-    theme: pulse
+    theme: cosmo
     mermaid:
       theme: default
 
