@@ -6,6 +6,8 @@ Dieses Skript hat noch keine *echte* Struktur und ist aktuell (Herbst/Winter 202
 
 Im Laufe der Zeit wird sich hier also sehr viel ändern, deshalb auch keine Garantie auf Vollständigkeit. Es wird auch was verschwinden... aber das ist ja normal.
 
+Das Ziel dieser Ansammlung an wilden Gedanken ist ein Modul *Statistische Bioinformatik* an der Hochschule Osnabrück ab Sommersemester 2025. Eventuell als eine rudimentäres Modul als Block schon eher...
+
 ## Kontakt {#sec-contact-mail}
 
 Noch Fragen? Wie erreichst du mich? Am einfachsten über die gute, alte E-Mail. Bitte beachte, dass gerade kurz vor den Prüfungen ich mehr E-Mails kriege. Leider kann es dann einen Tick dauern.

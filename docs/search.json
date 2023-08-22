@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Skript Bioinformatik",
     "section": "",
-    "text": "Willkommen\nDieses Skript hat noch keine echte Struktur und ist aktuell (Herbst/Winter 2023) eine wilde Ideensammlung.\nIm Laufe der Zeit wird sich hier also sehr viel ändern, deshalb auch keine Garantie auf Vollständigkeit. Es wird auch was verschwinden… aber das ist ja normal."
+    "text": "Willkommen\nDieses Skript hat noch keine echte Struktur und ist aktuell (Herbst/Winter 2023) eine wilde Ideensammlung.\nIm Laufe der Zeit wird sich hier also sehr viel ändern, deshalb auch keine Garantie auf Vollständigkeit. Es wird auch was verschwinden… aber das ist ja normal.\nDas Ziel dieser Ansammlung an wilden Gedanken ist ein Modul Statistische Bioinformatik an der Hochschule Osnabrück ab Sommersemester 2025. Eventuell als eine rudimentäres Modul als Block schon eher…"
   },
   {
     "objectID": "index.html#sec-contact-mail",
@@ -39,7 +39,7 @@
     "href": "preface.html",
     "title": "2  Einführung",
     "section": "",
-    "text": "Version vom August 22, 2023 um 11:18:21\n\n\n\n\n\n\nGrundlagen der klassischen, mendelschen Vererbung beinhaltend das Hardy-Weinberg-Gleichgewicht\nGrundlagen der Quantitativen Genetik mit Kopplungskarten und Linkage disequilibrium\nGenetische Distanz und polygenetische Bäume zur Darstellung evolutionärer Beziehungen\nMarkergestützte Selektion und indirekte Selektion\nStatistische Herausforderungen von hochdimensionalen Daten\nData Preprocessing und Qualitätskontrolle auf der Ebene der Marker und Individuen\nGängige Assoziationstests unter anderem Chi-Quadrat-Test und logistische Regression\nAuswertung von Genomeweite Assoziationsstudien, Microarraydaten, High throughput genotyping, Next generation sequencing, Whole genome sequencing und RNA-seq an Fallbeispielen\nVisualisierungen der Ergebnisse durch Manhattanplot, Vucanoplot und Regional Association Plot und weiteren.\nGrundlagen Multiomics und Pathway Analysen sowie deren Datenbanken\nGrundlegende Methoden zum Sequenzaligment\nAnwendung der Algorithmen an ausgewählten Fallbeispielen in R/Bioconductor"
+    "text": "Version vom August 22, 2023 um 13:09:52\n\n\n\n\n\n\nGrundlagen der klassischen, mendelschen Vererbung beinhaltend das Hardy-Weinberg-Gleichgewicht\nGrundlagen der Quantitativen Genetik mit Kopplungskarten und Linkage disequilibrium\nGenetische Distanz und polygenetische Bäume zur Darstellung evolutionärer Beziehungen\nMarkergestützte Selektion und indirekte Selektion\nStatistische Herausforderungen von hochdimensionalen Daten\nData Preprocessing und Qualitätskontrolle auf der Ebene der Marker und Individuen\nGängige Assoziationstests unter anderem Chi-Quadrat-Test und logistische Regression\nAuswertung von Genomeweite Assoziationsstudien, Microarraydaten, High throughput genotyping, Next generation sequencing, Whole genome sequencing und RNA-seq an Fallbeispielen\nVisualisierungen der Ergebnisse durch Manhattanplot, Vucanoplot und Regional Association Plot und weiteren.\nGrundlagen Multiomics und Pathway Analysen sowie deren Datenbanken\nGrundlegende Methoden zum Sequenzaligment\nAnwendung der Algorithmen an ausgewählten Fallbeispielen in R/Bioconductor"
   },
   {
     "objectID": "quali-genet-preface.html#referenzen",
