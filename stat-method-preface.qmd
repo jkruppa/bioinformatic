@@ -1,0 +1,11 @@
+```{r echo = FALSE}
+pacman::p_load(knitr, kableExtra)
+```
+
+# Statistische Methoden
+
+*Version vom `r format(Sys.time(), '%B %d, %Y um %H:%M:%S')`*
+
+Text
+
+## Referenzen {.unnumbered}

@@ -1,16 +1,16 @@
 # Willkommen {.unnumbered}
 
-> *"Mir wird applaudiert, weil mich jeder versteht, und Ihnen, weil Sie niemand versteht." --- Charlie Chaplin zu Albert Einstein*
+> *"Genes are like the story, and DNA is the language that the story is written in." --- Sam Kean*
 
-Auf den Text
+Dieses Skript hat noch keine *echte* Struktur und ist aktuell (Herbst/Winter 2023) eine wilde Ideensammlung.
+
+Im Laufe der Zeit wird sich hier also sehr viel ändern, deshalb auch keine Garantie auf Vollständigkeit. Es wird auch was verschwinden... aber das ist ja normal.
 
 ## Kontakt {#sec-contact-mail}
 
 Noch Fragen? Wie erreichst du mich? Am einfachsten über die gute, alte E-Mail. Bitte beachte, dass gerade kurz vor den Prüfungen ich mehr E-Mails kriege. Leider kann es dann einen Tick dauern.
 
 Einfach an [j.kruppa\@hs-osnabrueck.de](mailto:j.kruppa@hs-osnabrueck.de){.email} schreiben. Du findest hier auch eine kurze Formulierungshilfe.
-
-Bitte gib immer in deiner E-Mail dein Modul - was du belegst - mit an. Pro Semester unterrichte ich immer *drei* sehr ähnlich klingende Module. Daher schau nochmal [hier in der Liste](#sec-vorlesungen-hs), wenn du unsicher bist.
 
 ::: callout-tip
 ## E-Mailvorlage mit beispielhafter Anrede

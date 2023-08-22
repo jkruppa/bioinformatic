@@ -2,7 +2,7 @@
 pacman::p_load(knitr, kableExtra)
 ```
 
-# Grundlagen {#sec-quant-genet-basic}
+# Metabolomics Grundlagen {#sec-metabolomics-basic}
 
 *Version vom `r format(Sys.time(), '%B %d, %Y um %H:%M:%S')`*
 

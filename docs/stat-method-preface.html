@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Prof.&nbsp;Dr.&nbsp;Jochen Kruppa">
 
-<title>Skript Bioinformatik</title>
+<title>Skript Bioinformatik - Statistische Methoden</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./literature.html" rel="next">
+<link href="./stat-method-chi-quadrat.html" rel="next">
+<link href="./programming-blast.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Willkommen</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./stat-method-preface.html">Statistische Methoden</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -102,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Willkommen</span></a>
   </div>
 </li>
@@ -212,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./stat-method-preface.html" class="sidebar-item-text sidebar-link">
+            <a href="./stat-method-preface.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Statistische Methoden</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -306,10 +306,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#willkommen" id="toc-willkommen" class="nav-link active" data-scroll-target="#willkommen">Willkommen</a>
-  <ul class="collapse">
-  <li><a href="#sec-contact-mail" id="toc-sec-contact-mail" class="nav-link" data-scroll-target="#sec-contact-mail">Kontakt</a></li>
-  </ul></li>
+  <li><a href="#referenzen" id="toc-referenzen" class="nav-link active" data-scroll-target="#referenzen">Referenzen</a></li>
   </ul>
 </nav>
     </div>
@@ -318,27 +315,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Skript Bioinformatik</h1>
-<p class="subtitle lead">Der zu kurze Leitfaden</p>
+<h1 class="title">Statistische Methoden</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autor:in</div>
-    <div class="quarto-title-meta-contents">
-             <p>Prof.&nbsp;Dr.&nbsp;Jochen Kruppa </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">19. August 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -346,38 +330,12 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
-<section id="willkommen" class="level1 unnumbered">
-<h1 class="unnumbered">Willkommen</h1><p><img src="cover.png" title="Skript Bioinformatik" class="quarto-cover-image img-fluid"></p>
-<blockquote class="blockquote">
-<p><em>“Genes are like the story, and DNA is the language that the story is written in.” — Sam Kean</em></p>
-</blockquote>
-<p>Dieses Skript hat noch keine <em>echte</em> Struktur und ist aktuell (Herbst/Winter 2023) eine wilde Ideensammlung.</p>
-<p>Im Laufe der Zeit wird sich hier also sehr viel ändern, deshalb auch keine Garantie auf Vollständigkeit. Es wird auch was verschwinden… aber das ist ja normal.</p>
-<section id="sec-contact-mail" class="level2">
-<h2 class="anchored" data-anchor-id="sec-contact-mail">Kontakt</h2>
-<p>Noch Fragen? Wie erreichst du mich? Am einfachsten über die gute, alte E-Mail. Bitte beachte, dass gerade kurz vor den Prüfungen ich mehr E-Mails kriege. Leider kann es dann einen Tick dauern.</p>
-<p>Einfach an <a href="mailto:j.kruppa@hs-osnabrueck.de" class="email">j.kruppa@hs-osnabrueck.de</a> schreiben. Du findest hier auch eine kurze Formulierungshilfe.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-E-Mailvorlage mit beispielhafter Anrede
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Hallo Herr Kruppa,</p>
-<p>… ich belege gerade Ihr Modul <code>Modulname</code> und hätte eine Bitte/Frage/Anregung…</p>
-<p>… ich benötige Hilfe bei der Planung/Auswertung meiner Bachelorarbeit…</p>
-<p>Mit freundlichen Grüßen</p>
-<p>M. Muster</p>
-</div>
-</div>
+<p><em>Version vom August 22, 2023 um 12:47:28</em></p>
+<p>Text</p>
+<section id="referenzen" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="referenzen">Referenzen</h2>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -616,10 +574,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./programming-blast.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">BLAST</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./literature.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Literatur</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./stat-method-chi-quadrat.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title"><span class="math inline">\(\mathcal{X}^2\)</span> Test</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

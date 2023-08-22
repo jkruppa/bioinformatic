@@ -28,6 +28,28 @@ book:
     - part: data-genet-preface.qmd
       chapters: 
       - data-genet-basic.qmd
+      - data-genet-database.qmd
+    - part: programming-preface.qmd
+      chapters: 
+      - programming-basic.qmd
+      - programming-plink.qmd
+      - programming-bioconductor.qmd
+      - programming-blast.qmd
+    - part: stat-method-preface.qmd
+      chapters: 
+      - stat-method-chi-quadrat.qmd
+      - stat-method-logreg.qmd  
+      - stat-method-limma.qmd  
+    - part: dna-preface.qmd
+      chapters: 
+      - dna-basic.qmd
+    - part: expression-preface.qmd
+      chapters: 
+      - expression-basic.qmd
+    - part: proteomics-preface.qmd
+      chapters: 
+      - proteomics-basic.qmd
+      - metabolomics-basic.qmd
 #      - matrix-basic.qmd
 #    - part: functions-preface.qmd
 #      chapters: 

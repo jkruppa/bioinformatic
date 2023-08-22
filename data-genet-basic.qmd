@@ -2,7 +2,7 @@
 pacman::p_load(knitr, kableExtra)
 ```
 
-# Genetische Daten {#sec-genetic-data-basic}
+# Grundlagen {#sec-genetic-data-basic}
 
 *Version vom `r format(Sys.time(), '%B %d, %Y um %H:%M:%S')`*
 

@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Skript Bioinformatik",
     "section": "",
-    "text": "Willkommen\nAuf den Text"
+    "text": "Willkommen\nDieses Skript hat noch keine echte Struktur und ist aktuell (Herbst/Winter 2023) eine wilde Ideensammlung.\nIm Laufe der Zeit wird sich hier also sehr viel ändern, deshalb auch keine Garantie auf Vollständigkeit. Es wird auch was verschwinden… aber das ist ja normal."
   },
   {
     "objectID": "index.html#sec-contact-mail",
     "href": "index.html#sec-contact-mail",
     "title": "Skript Bioinformatik",
     "section": "Kontakt",
-    "text": "Kontakt\nNoch Fragen? Wie erreichst du mich? Am einfachsten über die gute, alte E-Mail. Bitte beachte, dass gerade kurz vor den Prüfungen ich mehr E-Mails kriege. Leider kann es dann einen Tick dauern.\nEinfach an j.kruppa@hs-osnabrueck.de schreiben. Du findest hier auch eine kurze Formulierungshilfe.\nBitte gib immer in deiner E-Mail dein Modul - was du belegst - mit an. Pro Semester unterrichte ich immer drei sehr ähnlich klingende Module. Daher schau nochmal hier in der Liste, wenn du unsicher bist.\n\n\n\n\n\n\nE-Mailvorlage mit beispielhafter Anrede\n\n\n\nHallo Herr Kruppa,\n… ich belege gerade Ihr Modul Modulname und hätte eine Bitte/Frage/Anregung…\n… ich benötige Hilfe bei der Planung/Auswertung meiner Bachelorarbeit…\nMit freundlichen Grüßen\nM. Muster"
+    "text": "Kontakt\nNoch Fragen? Wie erreichst du mich? Am einfachsten über die gute, alte E-Mail. Bitte beachte, dass gerade kurz vor den Prüfungen ich mehr E-Mails kriege. Leider kann es dann einen Tick dauern.\nEinfach an j.kruppa@hs-osnabrueck.de schreiben. Du findest hier auch eine kurze Formulierungshilfe.\n\n\n\n\n\n\nE-Mailvorlage mit beispielhafter Anrede\n\n\n\nHallo Herr Kruppa,\n… ich belege gerade Ihr Modul Modulname und hätte eine Bitte/Frage/Anregung…\n… ich benötige Hilfe bei der Planung/Auswertung meiner Bachelorarbeit…\nMit freundlichen Grüßen\nM. Muster"
   },
   {
     "objectID": "literature.html#parametrische-statistik",
@@ -51,21 +51,21 @@
   {
     "objectID": "quali-genet-basic.html#genutzte-r-pakete",
     "href": "quali-genet-basic.html#genutzte-r-pakete",
-    "title": "3  Qualitative Genetik",
+    "title": "3  Grundlagen",
     "section": "3.1 Genutzte R Pakete",
     "text": "3.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
   },
   {
     "objectID": "quali-genet-basic.html#daten",
     "href": "quali-genet-basic.html#daten",
-    "title": "3  Qualitative Genetik",
+    "title": "3  Grundlagen",
     "section": "3.2 Daten",
     "text": "3.2 Daten"
   },
   {
     "objectID": "quali-genet-basic.html#referenzen",
     "href": "quali-genet-basic.html#referenzen",
-    "title": "3  Qualitative Genetik",
+    "title": "3  Grundlagen",
     "section": "Referenzen",
     "text": "Referenzen"
   },
@@ -79,21 +79,21 @@
   {
     "objectID": "quant-genet-basic.html#genutzte-r-pakete",
     "href": "quant-genet-basic.html#genutzte-r-pakete",
-    "title": "4  Quantitative Genetik",
+    "title": "4  Grundlagen",
     "section": "4.1 Genutzte R Pakete",
     "text": "4.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
   },
   {
     "objectID": "quant-genet-basic.html#daten",
     "href": "quant-genet-basic.html#daten",
-    "title": "4  Quantitative Genetik",
+    "title": "4  Grundlagen",
     "section": "4.2 Daten",
     "text": "4.2 Daten"
   },
   {
     "objectID": "quant-genet-basic.html#referenzen",
     "href": "quant-genet-basic.html#referenzen",
-    "title": "4  Quantitative Genetik",
+    "title": "4  Grundlagen",
     "section": "Referenzen",
     "text": "Referenzen"
   },
@@ -107,21 +107,308 @@
   {
     "objectID": "data-genet-basic.html#genutzte-r-pakete",
     "href": "data-genet-basic.html#genutzte-r-pakete",
-    "title": "5  Genetische Daten",
+    "title": "5  Grundlagen",
     "section": "5.1 Genutzte R Pakete",
     "text": "5.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
   },
   {
     "objectID": "data-genet-basic.html#daten",
     "href": "data-genet-basic.html#daten",
-    "title": "5  Genetische Daten",
+    "title": "5  Grundlagen",
     "section": "5.2 Daten",
     "text": "5.2 Daten"
   },
   {
     "objectID": "data-genet-basic.html#referenzen",
     "href": "data-genet-basic.html#referenzen",
-    "title": "5  Genetische Daten",
+    "title": "5  Grundlagen",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "data-genet-database.html#genutzte-r-pakete",
+    "href": "data-genet-database.html#genutzte-r-pakete",
+    "title": "6  Databases",
+    "section": "6.1 Genutzte R Pakete",
+    "text": "6.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "data-genet-database.html#daten",
+    "href": "data-genet-database.html#daten",
+    "title": "6  Databases",
+    "section": "6.2 Daten",
+    "text": "6.2 Daten"
+  },
+  {
+    "objectID": "data-genet-database.html#referenzen",
+    "href": "data-genet-database.html#referenzen",
+    "title": "6  Databases",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "programming-preface.html#referenzen",
+    "href": "programming-preface.html#referenzen",
+    "title": "Programmieren in der Genetik",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "programming-basic.html#genutzte-r-pakete",
+    "href": "programming-basic.html#genutzte-r-pakete",
+    "title": "7  Genetik in R",
+    "section": "7.1 Genutzte R Pakete",
+    "text": "7.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "programming-basic.html#daten",
+    "href": "programming-basic.html#daten",
+    "title": "7  Genetik in R",
+    "section": "7.2 Daten",
+    "text": "7.2 Daten"
+  },
+  {
+    "objectID": "programming-basic.html#referenzen",
+    "href": "programming-basic.html#referenzen",
+    "title": "7  Genetik in R",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "programming-plink.html#genutzte-r-pakete",
+    "href": "programming-plink.html#genutzte-r-pakete",
+    "title": "8  PLINK",
+    "section": "8.1 Genutzte R Pakete",
+    "text": "8.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "programming-plink.html#daten",
+    "href": "programming-plink.html#daten",
+    "title": "8  PLINK",
+    "section": "8.2 Daten",
+    "text": "8.2 Daten"
+  },
+  {
+    "objectID": "programming-plink.html#referenzen",
+    "href": "programming-plink.html#referenzen",
+    "title": "8  PLINK",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "programming-bioconductor.html#genutzte-r-pakete",
+    "href": "programming-bioconductor.html#genutzte-r-pakete",
+    "title": "9  Bioconductor",
+    "section": "9.1 Genutzte R Pakete",
+    "text": "9.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "programming-bioconductor.html#daten",
+    "href": "programming-bioconductor.html#daten",
+    "title": "9  Bioconductor",
+    "section": "9.2 Daten",
+    "text": "9.2 Daten"
+  },
+  {
+    "objectID": "programming-bioconductor.html#referenzen",
+    "href": "programming-bioconductor.html#referenzen",
+    "title": "9  Bioconductor",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "programming-blast.html#genutzte-r-pakete",
+    "href": "programming-blast.html#genutzte-r-pakete",
+    "title": "10  BLAST",
+    "section": "10.1 Genutzte R Pakete",
+    "text": "10.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "programming-blast.html#daten",
+    "href": "programming-blast.html#daten",
+    "title": "10  BLAST",
+    "section": "10.2 Daten",
+    "text": "10.2 Daten"
+  },
+  {
+    "objectID": "programming-blast.html#referenzen",
+    "href": "programming-blast.html#referenzen",
+    "title": "10  BLAST",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "stat-method-preface.html#referenzen",
+    "href": "stat-method-preface.html#referenzen",
+    "title": "Statistische Methoden",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "stat-method-chi-quadrat.html#genutzte-r-pakete",
+    "href": "stat-method-chi-quadrat.html#genutzte-r-pakete",
+    "title": "11  \\(\\mathcal{X}^2\\) Test",
+    "section": "11.1 Genutzte R Pakete",
+    "text": "11.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "stat-method-chi-quadrat.html#daten",
+    "href": "stat-method-chi-quadrat.html#daten",
+    "title": "11  \\(\\mathcal{X}^2\\) Test",
+    "section": "11.2 Daten",
+    "text": "11.2 Daten"
+  },
+  {
+    "objectID": "stat-method-chi-quadrat.html#referenzen",
+    "href": "stat-method-chi-quadrat.html#referenzen",
+    "title": "11  \\(\\mathcal{X}^2\\) Test",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "stat-method-logreg.html#genutzte-r-pakete",
+    "href": "stat-method-logreg.html#genutzte-r-pakete",
+    "title": "12  Logistische Regression",
+    "section": "12.1 Genutzte R Pakete",
+    "text": "12.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "stat-method-logreg.html#daten",
+    "href": "stat-method-logreg.html#daten",
+    "title": "12  Logistische Regression",
+    "section": "12.2 Daten",
+    "text": "12.2 Daten"
+  },
+  {
+    "objectID": "stat-method-logreg.html#referenzen",
+    "href": "stat-method-logreg.html#referenzen",
+    "title": "12  Logistische Regression",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "stat-method-limma.html#genutzte-r-pakete",
+    "href": "stat-method-limma.html#genutzte-r-pakete",
+    "title": "13  Limma",
+    "section": "13.1 Genutzte R Pakete",
+    "text": "13.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "stat-method-limma.html#daten",
+    "href": "stat-method-limma.html#daten",
+    "title": "13  Limma",
+    "section": "13.2 Daten",
+    "text": "13.2 Daten"
+  },
+  {
+    "objectID": "stat-method-limma.html#referenzen",
+    "href": "stat-method-limma.html#referenzen",
+    "title": "13  Limma",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "dna-preface.html#referenzen",
+    "href": "dna-preface.html#referenzen",
+    "title": "DNA",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "dna-basic.html#genutzte-r-pakete",
+    "href": "dna-basic.html#genutzte-r-pakete",
+    "title": "14  Grundlagen",
+    "section": "14.1 Genutzte R Pakete",
+    "text": "14.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "dna-basic.html#daten",
+    "href": "dna-basic.html#daten",
+    "title": "14  Grundlagen",
+    "section": "14.2 Daten",
+    "text": "14.2 Daten"
+  },
+  {
+    "objectID": "dna-basic.html#referenzen",
+    "href": "dna-basic.html#referenzen",
+    "title": "14  Grundlagen",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "expression-preface.html#referenzen",
+    "href": "expression-preface.html#referenzen",
+    "title": "Expression",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "expression-basic.html#genutzte-r-pakete",
+    "href": "expression-basic.html#genutzte-r-pakete",
+    "title": "15  Grundlagen",
+    "section": "15.1 Genutzte R Pakete",
+    "text": "15.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "expression-basic.html#daten",
+    "href": "expression-basic.html#daten",
+    "title": "15  Grundlagen",
+    "section": "15.2 Daten",
+    "text": "15.2 Daten"
+  },
+  {
+    "objectID": "expression-basic.html#referenzen",
+    "href": "expression-basic.html#referenzen",
+    "title": "15  Grundlagen",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "proteomics-preface.html#referenzen",
+    "href": "proteomics-preface.html#referenzen",
+    "title": "Proteomics & Metabolomics",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "proteomics-basic.html#genutzte-r-pakete",
+    "href": "proteomics-basic.html#genutzte-r-pakete",
+    "title": "16  Proteomics Grundlagen",
+    "section": "16.1 Genutzte R Pakete",
+    "text": "16.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "proteomics-basic.html#daten",
+    "href": "proteomics-basic.html#daten",
+    "title": "16  Proteomics Grundlagen",
+    "section": "16.2 Daten",
+    "text": "16.2 Daten"
+  },
+  {
+    "objectID": "proteomics-basic.html#referenzen",
+    "href": "proteomics-basic.html#referenzen",
+    "title": "16  Proteomics Grundlagen",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "metabolomics-basic.html#genutzte-r-pakete",
+    "href": "metabolomics-basic.html#genutzte-r-pakete",
+    "title": "17  Metabolomics Grundlagen",
+    "section": "17.1 Genutzte R Pakete",
+    "text": "17.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "metabolomics-basic.html#daten",
+    "href": "metabolomics-basic.html#daten",
+    "title": "17  Metabolomics Grundlagen",
+    "section": "17.2 Daten",
+    "text": "17.2 Daten"
+  },
+  {
+    "objectID": "metabolomics-basic.html#referenzen",
+    "href": "metabolomics-basic.html#referenzen",
+    "title": "17  Metabolomics Grundlagen",
     "section": "Referenzen",
     "text": "Referenzen"
   }

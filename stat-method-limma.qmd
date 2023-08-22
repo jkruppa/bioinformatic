@@ -2,13 +2,17 @@
 pacman::p_load(knitr, kableExtra)
 ```
 
-# Grundlagen {#sec-quant-genet-basic}
+# Limma {#sec-limma}
 
 *Version vom `r format(Sys.time(), '%B %d, %Y um %H:%M:%S')`*
 
 > *"Methods for robust statistics, a state of the art in the early 2000s, notably for robust regression and robust multivariate analysis." --- [robust: Port of the S+ "Robust Library"](https://cran.r-project.org/web/packages/robust/index.html)*
 
 In diesem Kapitel geht
+
+Qualitative (monogene) Merkmale
+Autosomal-rezessiver Erbgang
+Autosomal-dominanter Erbgang
 
 ## Genutzte R Pakete
 
