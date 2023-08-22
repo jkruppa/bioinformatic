@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Skript Bioinformatik - 2&nbsp; Einführung</title>
+<title>Skript Bioinformatik - 3&nbsp; Qualitative Genetik</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,8 +64,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./quali-genet-preface.html" rel="next">
-<link href="./literature.html" rel="prev">
+<link href="./quant-genet-preface.html" rel="next">
+<link href="./quali-genet-preface.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -73,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./preface.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Einführung</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./quali-genet-preface.html">Qualitative Genetik</a></li><li class="breadcrumb-item"><a href="./quali-genet-basic.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Qualitative Genetik</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -112,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./preface.html" class="sidebar-item-text sidebar-link active">
+  <a href="./preface.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Einführung</span></span></a>
   </div>
 </li>
@@ -127,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./quali-genet-basic.html" class="sidebar-item-text sidebar-link">
+  <a href="./quali-genet-basic.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Qualitative Genetik</span></span></a>
   </div>
 </li>
@@ -173,14 +207,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#genutzte-r-pakete" id="toc-genutzte-r-pakete" class="nav-link active" data-scroll-target="#genutzte-r-pakete"><span class="header-section-number">3.1</span> Genutzte R Pakete</a></li>
+  <li><a href="#daten" id="toc-daten" class="nav-link" data-scroll-target="#daten"><span class="header-section-number">3.2</span> Daten</a></li>
+  <li><a href="#referenzen" id="toc-referenzen" class="nav-link" data-scroll-target="#referenzen">Referenzen</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-intro" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Einführung</span></span></h1>
+<h1 class="title"><span id="sec-quali-genet-basic" class="quarto-section-identifier"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Qualitative Genetik</span></span></h1>
 </div>
 
 
@@ -195,28 +237,36 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><em>Version vom August 22, 2023 um 11:18:21</em></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/caution.png" class="img-fluid figure-img" style="width:50.0%"></p>
-</figure>
+<p><em>Version vom August 22, 2023 um 11:18:22</em></p>
+<blockquote class="blockquote">
+<p><em>“Methods for robust statistics, a state of the art in the early 2000s, notably for robust regression and robust multivariate analysis.” — <a href="https://cran.r-project.org/web/packages/robust/index.html">robust: Port of the S+ “Robust Library”</a></em></p>
+</blockquote>
+<p>In diesem Kapitel geht</p>
+<p>Qualitative (monogene) Merkmale Autosomal-rezessiver Erbgang Autosomal-dominanter Erbgang</p>
+<section id="genutzte-r-pakete" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="genutzte-r-pakete"><span class="header-section-number">3.1</span> Genutzte R Pakete</h2>
+<p>Wir wollen folgende R Pakete in diesem Kapitel nutzen.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(tidyverse, magrittr, conflicted, broom, quantreg,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>               see, performance, emmeans, multcomp, janitor,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>               parameters, effectsize, MASS, modelsummary,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>               robustbase, multcompView)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">"select"</span>, <span class="st">"dplyr"</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">"filter"</span>, <span class="st">"dplyr"</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">"mutate"</span>, <span class="st">"dplyr"</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>cbbPalette <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"#000000"</span>, <span class="st">"#E69F00"</span>, <span class="st">"#56B4E9"</span>, <span class="st">"#009E73"</span>, </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>                <span class="st">"#F0E442"</span>, <span class="st">"#0072B2"</span>, <span class="st">"#D55E00"</span>, <span class="st">"#CC79A7"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<ul>
-<li>Grundlagen der klassischen, mendelschen Vererbung beinhaltend das Hardy-Weinberg-Gleichgewicht</li>
-<li>Grundlagen der Quantitativen Genetik mit Kopplungskarten und Linkage disequilibrium</li>
-<li>Genetische Distanz und polygenetische Bäume zur Darstellung evolutionärer Beziehungen</li>
-<li>Markergestützte Selektion und indirekte Selektion</li>
-<li>Statistische Herausforderungen von hochdimensionalen Daten</li>
-<li>Data Preprocessing und Qualitätskontrolle auf der Ebene der Marker und Individuen</li>
-<li>Gängige Assoziationstests unter anderem Chi-Quadrat-Test und logistische Regression</li>
-<li>Auswertung von Genomeweite Assoziationsstudien, Microarraydaten, High throughput genotyping, Next generation sequencing, Whole genome sequencing und RNA-seq an Fallbeispielen</li>
-<li>Visualisierungen der Ergebnisse durch Manhattanplot, Vucanoplot und Regional Association Plot und weiteren.</li>
-<li>Grundlagen Multiomics und Pathway Analysen sowie deren Datenbanken</li>
-<li>Grundlegende Methoden zum Sequenzaligment</li>
-<li>Anwendung der Algorithmen an ausgewählten Fallbeispielen in R/Bioconductor</li>
-</ul>
+<p>Am Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren.</p>
+</section>
+<section id="daten" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="daten"><span class="header-section-number">3.2</span> Daten</h2>
+</section>
+<section id="referenzen" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="referenzen">Referenzen</h2>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -454,13 +504,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./literature.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Literatur</span></span>
+      <a href="./quali-genet-preface.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Qualitative Genetik</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./quali-genet-preface.html" class="pagination-link">
-        <span class="nav-page-text">Qualitative Genetik</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./quant-genet-preface.html" class="pagination-link">
+        <span class="nav-page-text">Quantitative Genetik</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

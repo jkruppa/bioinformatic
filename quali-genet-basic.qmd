@@ -1,0 +1,41 @@
+```{r echo = FALSE}
+pacman::p_load(knitr, kableExtra)
+```
+
+# Qualitative Genetik {#sec-quali-genet-basic}
+
+*Version vom `r format(Sys.time(), '%B %d, %Y um %H:%M:%S')`*
+
+> *"Methods for robust statistics, a state of the art in the early 2000s, notably for robust regression and robust multivariate analysis." --- [robust: Port of the S+ "Robust Library"](https://cran.r-project.org/web/packages/robust/index.html)*
+
+In diesem Kapitel geht
+
+Qualitative (monogene) Merkmale
+Autosomal-rezessiver Erbgang
+Autosomal-dominanter Erbgang
+
+## Genutzte R Pakete
+
+Wir wollen folgende R Pakete in diesem Kapitel nutzen.
+
+```{r echo = TRUE}
+#| message: false
+pacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,
+               see, performance, emmeans, multcomp, janitor,
+               parameters, effectsize, MASS, modelsummary,
+               robustbase, multcompView)
+conflict_prefer("select", "dplyr")
+conflict_prefer("filter", "dplyr")
+conflict_prefer("mutate", "dplyr")
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", 
+                "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+```
+
+Am Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren.
+
+## Daten
+
+
+
+
+## Referenzen {.unnumbered}

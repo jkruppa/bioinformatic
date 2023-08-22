@@ -19,14 +19,15 @@ book:
     - index.qmd
     - literature.qmd
     - preface.qmd
-#    - part: geometry-preface.qmd
-#      chapters:
-#      - geometry-unit.qmd
-#      - geometry-area.qmd
-#      - geometry-volume.qmd
-#    - part: vector-preface.qmd
-#      chapters: 
-#      - vector-basic.qmd
+    - part: quali-genet-preface.qmd
+      chapters:
+      - quali-genet-basic.qmd
+    - part: quant-genet-preface.qmd
+      chapters:
+      - quant-genet-basic.qmd
+    - part: data-genet-preface.qmd
+      chapters: 
+      - data-genet-basic.qmd
 #      - matrix-basic.qmd
 #    - part: functions-preface.qmd
 #      chapters: 

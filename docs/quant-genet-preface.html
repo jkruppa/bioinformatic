@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Skript Bioinformatik - 2&nbsp; Einführung</title>
+<title>Skript Bioinformatik - Quantitative Genetik</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./quali-genet-preface.html" rel="next">
-<link href="./literature.html" rel="prev">
+<link href="./quant-genet-basic.html" rel="next">
+<link href="./quali-genet-basic.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./preface.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Einführung</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./quant-genet-preface.html">Quantitative Genetik</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./preface.html" class="sidebar-item-text sidebar-link active">
+  <a href="./preface.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Einführung</span></span></a>
   </div>
 </li>
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./quant-genet-preface.html" class="sidebar-item-text sidebar-link">
+            <a href="./quant-genet-preface.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Quantitative Genetik</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -173,14 +173,20 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#referenzen" id="toc-referenzen" class="nav-link active" data-scroll-target="#referenzen">Referenzen</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-intro" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Einführung</span></span></h1>
+<h1 class="title">Quantitative Genetik</h1>
 </div>
 
 
@@ -195,28 +201,13 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><em>Version vom August 22, 2023 um 11:18:21</em></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/caution.png" class="img-fluid figure-img" style="width:50.0%"></p>
-</figure>
-</div>
-<ul>
-<li>Grundlagen der klassischen, mendelschen Vererbung beinhaltend das Hardy-Weinberg-Gleichgewicht</li>
-<li>Grundlagen der Quantitativen Genetik mit Kopplungskarten und Linkage disequilibrium</li>
-<li>Genetische Distanz und polygenetische Bäume zur Darstellung evolutionärer Beziehungen</li>
-<li>Markergestützte Selektion und indirekte Selektion</li>
-<li>Statistische Herausforderungen von hochdimensionalen Daten</li>
-<li>Data Preprocessing und Qualitätskontrolle auf der Ebene der Marker und Individuen</li>
-<li>Gängige Assoziationstests unter anderem Chi-Quadrat-Test und logistische Regression</li>
-<li>Auswertung von Genomeweite Assoziationsstudien, Microarraydaten, High throughput genotyping, Next generation sequencing, Whole genome sequencing und RNA-seq an Fallbeispielen</li>
-<li>Visualisierungen der Ergebnisse durch Manhattanplot, Vucanoplot und Regional Association Plot und weiteren.</li>
-<li>Grundlagen Multiomics und Pathway Analysen sowie deren Datenbanken</li>
-<li>Grundlegende Methoden zum Sequenzaligment</li>
-<li>Anwendung der Algorithmen an ausgewählten Fallbeispielen in R/Bioconductor</li>
-</ul>
+<p><em>Version vom August 22, 2023 um 11:18:25</em></p>
+<p>Text</p>
+<section id="referenzen" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="referenzen">Referenzen</h2>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -454,13 +445,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./literature.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Literatur</span></span>
+      <a href="./quali-genet-basic.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Qualitative Genetik</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./quali-genet-preface.html" class="pagination-link">
-        <span class="nav-page-text">Qualitative Genetik</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./quant-genet-basic.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Quantitative Genetik</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
