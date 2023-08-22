@@ -2,7 +2,7 @@
 pacman::p_load(knitr, kableExtra)
 ```
 
-# Robuste und Quantilesregression {#sec-1}
+# Pathway Grundlagen {#sec-pathway-basic}
 
 *Version vom `r format(Sys.time(), '%B %d, %Y um %H:%M:%S')`*
 

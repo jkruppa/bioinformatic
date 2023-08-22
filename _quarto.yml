@@ -50,25 +50,20 @@ book:
       chapters: 
       - proteomics-basic.qmd
       - metabolomics-basic.qmd
-#      - matrix-basic.qmd
-#    - part: functions-preface.qmd
-#      chapters: 
-#      - functions-basic.qmd
-#      - functions-extrem-stamm.qmd
-#    - part: probability-preface.qmd
-#      chapters:
-#      - probability-basic.qmd
-#      - probability-distribution.qmd
+    - part: pathway-preface.qmd
+      chapters: 
+      - pathway-basic.qmd
+      - enrichment-basic.qmd
+
 
 bibliography: references.bib
 lang: de 
 
 format:
   html:
-    theme: cosmo
+    theme: pulse
     mermaid:
       theme: default
-#  pdf:
-#    documentclass: scrreprt
+
 
 

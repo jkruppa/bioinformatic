@@ -411,5 +411,54 @@
     "title": "17  Metabolomics Grundlagen",
     "section": "Referenzen",
     "text": "Referenzen"
+  },
+  {
+    "objectID": "pathway-preface.html#referenzen",
+    "href": "pathway-preface.html#referenzen",
+    "title": "Pathway & Enrichment Analysen",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "pathway-basic.html#genutzte-r-pakete",
+    "href": "pathway-basic.html#genutzte-r-pakete",
+    "title": "18  Pathway Grundlagen",
+    "section": "18.1 Genutzte R Pakete",
+    "text": "18.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "pathway-basic.html#daten",
+    "href": "pathway-basic.html#daten",
+    "title": "18  Pathway Grundlagen",
+    "section": "18.2 Daten",
+    "text": "18.2 Daten"
+  },
+  {
+    "objectID": "pathway-basic.html#referenzen",
+    "href": "pathway-basic.html#referenzen",
+    "title": "18  Pathway Grundlagen",
+    "section": "Referenzen",
+    "text": "Referenzen"
+  },
+  {
+    "objectID": "enrichment-basic.html#genutzte-r-pakete",
+    "href": "enrichment-basic.html#genutzte-r-pakete",
+    "title": "19  Genset Enrichment Grundlagen",
+    "section": "19.1 Genutzte R Pakete",
+    "text": "19.1 Genutzte R Pakete\nWir wollen folgende R Pakete in diesem Kapitel nutzen.\n\npacman::p_load(tidyverse, magrittr, conflicted, broom, quantreg,\n               see, performance, emmeans, multcomp, janitor,\n               parameters, effectsize, MASS, modelsummary,\n               robustbase, multcompView)\nconflict_prefer(\"select\", \"dplyr\")\nconflict_prefer(\"filter\", \"dplyr\")\nconflict_prefer(\"mutate\", \"dplyr\")\ncbbPalette &lt;- c(\"#000000\", \"#E69F00\", \"#56B4E9\", \"#009E73\", \n                \"#F0E442\", \"#0072B2\", \"#D55E00\", \"#CC79A7\")\n\nAm Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren."
+  },
+  {
+    "objectID": "enrichment-basic.html#daten",
+    "href": "enrichment-basic.html#daten",
+    "title": "19  Genset Enrichment Grundlagen",
+    "section": "19.2 Daten",
+    "text": "19.2 Daten"
+  },
+  {
+    "objectID": "enrichment-basic.html#referenzen",
+    "href": "enrichment-basic.html#referenzen",
+    "title": "19  Genset Enrichment Grundlagen",
+    "section": "Referenzen",
+    "text": "Referenzen"
   }
 ]

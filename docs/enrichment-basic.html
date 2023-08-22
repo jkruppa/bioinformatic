@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Prof.&nbsp;Dr.&nbsp;Jochen Kruppa">
 
-<title>Skript Bioinformatik</title>
+<title>Skript Bioinformatik - 19&nbsp; Genset Enrichment Grundlagen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -31,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./literature.html" rel="next">
+<link href="./pathway-basic.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -75,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Willkommen</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pathway-preface.html">Pathway &amp; Enrichment Analysen</a></li><li class="breadcrumb-item"><a href="./enrichment-basic.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Genset Enrichment Grundlagen</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -102,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Willkommen</span></a>
   </div>
 </li>
@@ -313,7 +346,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./enrichment-basic.html" class="sidebar-item-text sidebar-link">
+  <a href="./enrichment-basic.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Genset Enrichment Grundlagen</span></span></a>
   </div>
 </li>
@@ -329,10 +362,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#willkommen" id="toc-willkommen" class="nav-link active" data-scroll-target="#willkommen">Willkommen</a>
-  <ul class="collapse">
-  <li><a href="#sec-contact-mail" id="toc-sec-contact-mail" class="nav-link" data-scroll-target="#sec-contact-mail">Kontakt</a></li>
-  </ul></li>
+  <li><a href="#genutzte-r-pakete" id="toc-genutzte-r-pakete" class="nav-link active" data-scroll-target="#genutzte-r-pakete"><span class="header-section-number">19.1</span> Genutzte R Pakete</a></li>
+  <li><a href="#daten" id="toc-daten" class="nav-link" data-scroll-target="#daten"><span class="header-section-number">19.2</span> Daten</a></li>
+  <li><a href="#referenzen" id="toc-referenzen" class="nav-link" data-scroll-target="#referenzen">Referenzen</a></li>
   </ul>
 </nav>
     </div>
@@ -341,27 +373,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Skript Bioinformatik</h1>
-<p class="subtitle lead">Der zu kurze Leitfaden</p>
+<h1 class="title"><span id="sec-enrich-basic" class="quarto-section-identifier"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Genset Enrichment Grundlagen</span></span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autor:in</div>
-    <div class="quarto-title-meta-contents">
-             <p>Prof.&nbsp;Dr.&nbsp;Jochen Kruppa </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">19. August 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -369,39 +388,34 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
-<section id="willkommen" class="level1 unnumbered">
-<h1 class="unnumbered">Willkommen</h1><p><img src="cover.png" title="Skript Bioinformatik" class="quarto-cover-image img-fluid"></p>
+<p><em>Version vom August 22, 2023 um 13:43:02</em></p>
 <blockquote class="blockquote">
-<p><em>“Genes are like the story, and DNA is the language that the story is written in.” — Sam Kean</em></p>
+<p><em>“Methods for robust statistics, a state of the art in the early 2000s, notably for robust regression and robust multivariate analysis.” — <a href="https://cran.r-project.org/web/packages/robust/index.html">robust: Port of the S+ “Robust Library”</a></em></p>
 </blockquote>
-<p>Dieses Skript hat noch keine <em>echte</em> Struktur und ist aktuell (Herbst/Winter 2023) eine wilde Ideensammlung.</p>
-<p>Im Laufe der Zeit wird sich hier also sehr viel ändern, deshalb auch keine Garantie auf Vollständigkeit. Es wird auch was verschwinden… aber das ist ja normal.</p>
-<p>Das Ziel dieser Ansammlung an wilden Gedanken ist ein Modul <em>Statistische Bioinformatik</em> an der Hochschule Osnabrück ab Sommersemester 2025. Eventuell als eine rudimentäres Modul als Block schon eher…</p>
-<section id="sec-contact-mail" class="level2">
-<h2 class="anchored" data-anchor-id="sec-contact-mail">Kontakt</h2>
-<p>Noch Fragen? Wie erreichst du mich? Am einfachsten über die gute, alte E-Mail. Bitte beachte, dass gerade kurz vor den Prüfungen ich mehr E-Mails kriege. Leider kann es dann einen Tick dauern.</p>
-<p>Einfach an <a href="mailto:j.kruppa@hs-osnabrueck.de" class="email">j.kruppa@hs-osnabrueck.de</a> schreiben. Du findest hier auch eine kurze Formulierungshilfe.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<p>In diesem Kapitel geht</p>
+<section id="genutzte-r-pakete" class="level2" data-number="19.1">
+<h2 data-number="19.1" class="anchored" data-anchor-id="genutzte-r-pakete"><span class="header-section-number">19.1</span> Genutzte R Pakete</h2>
+<p>Wir wollen folgende R Pakete in diesem Kapitel nutzen.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(tidyverse, magrittr, conflicted, broom, quantreg,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>               see, performance, emmeans, multcomp, janitor,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>               parameters, effectsize, MASS, modelsummary,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>               robustbase, multcompView)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">"select"</span>, <span class="st">"dplyr"</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">"filter"</span>, <span class="st">"dplyr"</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">conflict_prefer</span>(<span class="st">"mutate"</span>, <span class="st">"dplyr"</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>cbbPalette <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"#000000"</span>, <span class="st">"#E69F00"</span>, <span class="st">"#56B4E9"</span>, <span class="st">"#009E73"</span>, </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>                <span class="st">"#F0E442"</span>, <span class="st">"#0072B2"</span>, <span class="st">"#D55E00"</span>, <span class="st">"#CC79A7"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="callout-title-container flex-fill">
-E-Mailvorlage mit beispielhafter Anrede
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Hallo Herr Kruppa,</p>
-<p>… ich belege gerade Ihr Modul <code>Modulname</code> und hätte eine Bitte/Frage/Anregung…</p>
-<p>… ich benötige Hilfe bei der Planung/Auswertung meiner Bachelorarbeit…</p>
-<p>Mit freundlichen Grüßen</p>
-<p>M. Muster</p>
-</div>
-</div>
-
-
+<p>Am Ende des Kapitels findest du nochmal den gesamten R Code in einem Rutsch zum selber durchführen oder aber kopieren.</p>
 </section>
+<section id="daten" class="level2" data-number="19.2">
+<h2 data-number="19.2" class="anchored" data-anchor-id="daten"><span class="header-section-number">19.2</span> Daten</h2>
+</section>
+<section id="referenzen" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="referenzen">Referenzen</h2>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -640,11 +654,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./pathway-basic.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Pathway Grundlagen</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./literature.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Literatur</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
