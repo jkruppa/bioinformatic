@@ -19,6 +19,7 @@ book:
     - index.qmd
     - literature.qmd
     - preface.qmd
+    - glossar.qmd
     - part: quali-genet-preface.qmd
       chapters:
       - quali-genet-basic.qmd
