@@ -14,7 +14,6 @@ book:
   subtitle: "Der zu kurze Leitfaden"
   author: "Prof. Dr. Jochen Kruppa"
   date: "19. August 2023"
-  cover-image: cover.png
   chapters:
     - index.qmd
     - literature.qmd
@@ -63,6 +62,7 @@ lang: de
 format:
   html:
     theme: cosmo
+    cover-image: cover2023.png
     mermaid:
       theme: default
 
